@@ -6,7 +6,7 @@
 ```
 cd ~/your_workspace
 colcon build --packages-select assignment_1
-colcon build --packages_select mlcs_interface
+colcon build --packages-select mlcs_interface
 ```
 open new terminal to refresh source directory
 
