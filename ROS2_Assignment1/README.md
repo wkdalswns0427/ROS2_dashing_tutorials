@@ -18,7 +18,7 @@ ros2 launch assignment_1 assignmentLaunch.launch.py
 ## Publish Custom Topic
 in new terminal
 ```
-ros2 topic pub --once /turtleCircle mlcs_interface/msg/Position "{rad: 2.0, vel: 2.0, dir: True}"
+ros2 topic pub --once /rvds mlcs_interface/msg/Position "{rad: 2.0, vel: 2.0, dir: True}"
 ```
 dir True : ccw
 
